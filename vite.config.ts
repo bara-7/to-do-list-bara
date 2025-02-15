@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "./", // Mengubah base URL untuk relatif path
+  base: "/to-do-list-bara/", // Base URL untuk GitHub Pages
   server: {
     host: "::",
     port: 8080,
